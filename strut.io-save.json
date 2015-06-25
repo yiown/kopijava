@@ -13,36 +13,49 @@
           "type": "TextBox",
           "text": "<font color=\"#eeeeee\" face=\"Fredoka One, cursive\">Kopi Java</font>",
           "size": 205,
-          "selected": false,
+          "selected": true,
           "rotate": 0
         }
       ],
       "z": 0,
-      "impScale": 3,
+      "impScale": 1,
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
       "index": 0,
-      "selected": false,
-      "active": false,
-      "x": 180,
-      "y": 180,
+      "selected": true,
+      "active": true,
+      "x": 275,
+      "y": 133,
       "markdown": ""
     },
     {
       "components": [
         {
           "TextBox": {},
-          "x": 341.3333333333333,
-          "y": 256,
+          "x": 271,
+          "y": 108,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
-          "text": "<font color=\"#eeeeee\">Compilando...&nbsp;<br>IDEs y ambientes<br>Variables y operadores<br>Control del flujo<br>Arreglos<br>Clases<br>Métodos y estáticos<br>Manejo de errores<br>Tarea.</font><br>",
-          "size": 24,
+          "text": "<ul><li><font color=\"#eeeeee\"><span style=\"line-height: normal;\">Compilando...&nbsp;</span><br></font></li><li><font color=\"#eeeeee\"><span style=\"line-height: normal;\">IDEs y ambientes</span><br></font></li><li><font color=\"#eeeeee\"><span style=\"line-height: normal;\">Variables y Operadores</span><br></font></li><li><font color=\"#eeeeee\"><span style=\"line-height: normal;\">Control del Flujo</span><br></font></li><li><font color=\"#eeeeee\"><span style=\"line-height: normal;\">Arreglos</span><br></font></li><li><font color=\"#eeeeee\"><span style=\"line-height: normal;\">Clases</span><br></font></li><li><font color=\"#eeeeee\"><span style=\"line-height: normal;\">Métodos y estáticos</span><br></font></li><li><font color=\"#eeeeee\"><span style=\"line-height: normal;\">Manejo de errores</span><br></font></li><li><span style=\"line-height: normal;\"><font color=\"#eeeeee\">Tarea...</font></span><br></li></ul>",
+          "size": 51,
           "selected": false
+        },
+        {
+          "markup": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 571.11 571.11\" preserveAspectRatio=\"none\"><path d=\"M535.441,412.339A280.868,280.868 0 1,1 536.186,161.733L284.493,286.29Z\"/></svg>",
+          "type": "Shape",
+          "x": 187,
+          "y": 651,
+          "scale": {
+            "width": 100,
+            "height": 100
+          },
+          "selected": false,
+          "rotate": -1.57,
+          "fill": "#eeeeee"
         }
       ],
       "z": 0,
@@ -51,28 +64,227 @@
       "rotateY": 0,
       "rotateZ": 0,
       "index": 1,
-      "selected": true,
-      "active": true
+      "selected": false,
+      "active": false,
+      "x": 530,
+      "y": 137,
+      "background": "bg-solid-black"
     },
     {
       "components": [
         {
+          "src": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Wave.svg/170px-Wave.svg.png",
+          "type": "Image",
+          "x": 412,
+          "y": 276,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://static.themedy.com/wp-content/uploads/2011/11/coffeemachine1.png",
+          "type": "Image",
+          "x": 642,
+          "y": 293,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
           "TextBox": {},
-          "x": 174,
-          "y": 514,
+          "x": 403,
+          "y": 55,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
-          "text": "<font color=\"#eeeeee\">JDK</font>",
+          "size": 64,
+          "text": "<font color=\"#9f9f9f\">Origin</font>",
+          "selected": false
+        },
+        {
+          "src": "http://www.iclarified.com/images/news/36694/156843/156843-1280.png",
+          "type": "Image",
+          "x": 60,
+          "y": 298,
+          "scale": {
+            "x": 0.20943708609271525,
+            "y": 0.20943708609271525,
+            "width": 253.00000000000003,
+            "height": 268.0794701986755
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 1,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 2,
+      "selected": false,
+      "active": false,
+      "x": 752,
+      "y": 132
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 123,
+          "y": 350,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font color=\"#9f9f9f\">Compiled</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 559,
+          "y": 344,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font color=\"#9f9f9f\">Interpreted</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 33,
+          "y": 544,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font color=\"#ffffff\">C</font><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 375,
+          "y": 101,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font color=\"#9f9f9f\">Native</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 321,
+          "y": 225,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font color=\"#ffffff\">Assembler</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 33,
+          "y": 454,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font color=\"#ffffff\">C++</font><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 410,
+          "y": 433,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font color=\"#ffffff\">Java</font><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 784,
+          "y": 439,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font color=\"#ffffff\">Python</font><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 779,
+          "y": 541,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font color=\"#ffffff\">C#</font><br>",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 1,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 3,
+      "selected": false,
+      "active": false,
+      "x": 966,
+      "y": 131
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 69,
+          "y": 170,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#00fff3\">JDK</font>",
           "size": 72,
           "selected": false
         },
         {
           "TextBox": {},
-          "x": 713,
-          "y": 499,
+          "x": 452,
+          "y": 273,
           "scale": {
             "x": 1,
             "y": 1
@@ -84,106 +296,54 @@
         },
         {
           "TextBox": {},
-          "x": 442,
-          "y": 264,
+          "x": 771,
+          "y": 171,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
-          "text": "<font color=\"#eeeeee\">JVM</font>",
-          "size": 72,
-          "selected": false
-        }
-      ],
-      "z": 0,
-      "impScale": 3,
-      "rotateX": 0,
-      "rotateY": 0,
-      "rotateZ": 0,
-      "index": 2,
-      "selected": false,
-      "active": false
-    },
-    {
-      "components": [
-        {
-          "TextBox": {},
-          "x": 159,
-          "y": 196,
-          "scale": {
-            "x": 1,
-            "y": 1
-          },
-          "type": "TextBox",
-          "text": "<font color=\"#eeeeee\">Compiler</font>",
+          "text": "<font color=\"#00ff1b\">JVM</font>",
           "size": 72,
           "selected": false
         },
         {
           "TextBox": {},
-          "x": 589,
-          "y": 542,
+          "x": 356,
+          "y": 592,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
-          "text": "<font color=\"#eeeeee\">Interpreter</font>",
+          "text": "<font color=\"#eeeeee\">Hardware</font>",
           "size": 72,
           "selected": false
         },
         {
           "TextBox": {},
-          "x": 52,
-          "y": 51,
+          "x": 238,
+          "y": 441,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
-          "text": "<font color=\"#9e9e9e\">Source</font>",
+          "text": "<font color=\"#eeeeee\">Operating System</font>",
           "size": 72,
           "selected": false
         },
         {
           "TextBox": {},
-          "x": 336,
-          "y": 378,
+          "x": 372,
+          "y": 94,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
-          "text": "<font color=\"#9e9e9e\">Bytecode</font>",
+          "text": "<font color=\"#eeeeee\">Program</font>",
           "size": 72,
-          "selected": false
-        }
-      ],
-      "z": 0,
-      "impScale": 3,
-      "rotateX": 0,
-      "rotateY": 0,
-      "rotateZ": 0,
-      "index": 3,
-      "selected": false,
-      "active": false,
-      "x": 460,
-      "y": 180
-    },
-    {
-      "components": [
-        {
-          "TextBox": {},
-          "x": 41,
-          "y": 245,
-          "scale": {
-            "x": 1,
-            "y": 1
-          },
-          "type": "TextBox",
-          "text": "<font color=\"#eeeeee\" face=\"Droid Sans Mono, monospace\">$ add-apt-repository ppa:webupd8team/java<br>$ apt-get update<br>$ apt-get install oracle-java8-installer<br>$ java -version<br>java version \"1.8.0_45\"<br>Java(TM) SE Runtime Environment (build 1.8.0_45-b14)<br>Java HotSpot(TM) 64-Bit Server VM (build 25.45-b02, mixed mode)</font><br>",
-          "size": 25,
           "selected": false
         }
       ],
@@ -195,8 +355,208 @@
       "index": 4,
       "selected": false,
       "active": false,
-      "x": 460,
-      "y": 180
+      "x": 1288,
+      "y": 148
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 75,
+          "y": 246,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#eeeeee\">public class Simple {<br>&nbsp; &nbsp; public static void main(String[] args) {<br>&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(\"Hola Chango\");<br>&nbsp; &nbsp; }<br>}</font><br>",
+          "size": 51,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 387,
+          "y": 35,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#9e9e9e\">Source</font>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 2,
+      "rotateX": 0,
+      "rotateY": 0.79,
+      "rotateZ": 0,
+      "index": 5,
+      "selected": false,
+      "active": false,
+      "x": 349,
+      "y": 336
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 313,
+          "y": 316,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font color=\"#eeeeee\">$ javac test.java</font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 371,
+          "y": 48,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#9f9f9f\">Compiler</font>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 2,
+      "rotateX": 0,
+      "rotateY": 1.57,
+      "rotateZ": 0,
+      "index": 6,
+      "selected": false,
+      "active": false,
+      "x": 349,
+      "y": 450
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 180,
+          "y": 99,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 22,
+          "text": "<font color=\"#eeeeee\">0:   iconst_2<br>1:   istore_1<br>2:   iload_1<br>3:   sipush  1000<br>6:   if_icmpge       44<br>9:   iconst_2<br>10:  istore_2<br>11:  iload_2<br>12:  iload_1<br>13:  if_icmpge       31<br>16:  iload_1<br>17:  iload_2<br>18:  irem<br>19:  ifne    25<br>22:  goto    38<br>25:  iinc    2, 1<br>28:  goto    11<br>31:  getstatic       #84; // Field java/lang/System.out:Ljava/io/PrintStream;<br>34:  iload_1<br>35:  invokevirtual   #85; // Method java/io/PrintStream.println:(I)V<br>38:  iinc    1, 1<br>41:  goto    2<br>44:  return</font><br>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 382,
+          "y": 2,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#9e9e9e\">Bytecode</font>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 2,
+      "rotateX": 0,
+      "rotateY": 2.36,
+      "rotateZ": 0,
+      "index": 7,
+      "selected": false,
+      "active": false,
+      "x": 615,
+      "y": 320
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 307,
+          "y": 302,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "size": 64,
+          "text": "<font color=\"#eeeeee\">$ java test<br>Hello Chango<br></font>",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 342,
+          "y": 16,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#9f9f9f\">Interpreter</font>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 2,
+      "rotateX": 0,
+      "rotateY": 3.14,
+      "rotateZ": 0,
+      "index": 8,
+      "selected": false,
+      "active": false,
+      "x": 614,
+      "y": 437
+    },
+    {
+      "components": [
+        {
+          "TextBox": {},
+          "x": 42,
+          "y": 346,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#eeeeee\" face=\"Droid Sans Mono, monospace\">$ add-apt-repository ppa:webupd8team/java<br>$ apt-get update<br>$ apt-get install oracle-java8-installer<br>$ java -version<br>java version \"1.8.0_45\"<br>Java(TM) SE Runtime Environment (build 1.8.0_45-b14)<br>Java HotSpot(TM) 64-Bit Server VM (build 25.45-b02, mixed mode)</font><br>",
+          "size": 25,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 422,
+          "y": 32,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font color=\"#eeeeee\">c9.io</font>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 2,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "index": 9,
+      "selected": false,
+      "active": false,
+      "x": 969,
+      "y": 454
     }
   ],
   "background": "bg-transparent",
@@ -204,30 +564,35 @@
     "components": [
       {
         "TextBox": {},
-        "x": 341.3333333333333,
-        "y": 256,
+        "x": 38,
+        "y": 205,
         "scale": {
           "x": 1,
           "y": 1
         },
         "type": "TextBox",
-        "text": "<font color=\"#eeeeee\">Compilando...&nbsp;<br>IDEs y ambientes<br>Variables y operadores<br>Control del flujo<br>Arreglos<br>Clases<br>Métodos y estáticos<br>Manejo de errores<br>Tarea.</font><br>",
-        "size": 24,
-        "selected": false
+        "text": "<font color=\"#eeeeee\" face=\"Fredoka One, cursive\">Kopi Java</font>",
+        "size": 205,
+        "selected": true,
+        "rotate": 0
       }
     ],
     "z": 0,
-    "impScale": 3,
+    "impScale": 1,
     "rotateX": 0,
     "rotateY": 0,
     "rotateZ": 0,
-    "index": 1,
+    "index": 0,
     "selected": true,
-    "active": true
+    "active": true,
+    "x": 275,
+    "y": 133,
+    "markdown": ""
   },
   "fileName": "presentation-unnamed",
   "surface": "bg-surf-grad-black",
   "deckVersion": "1.0",
+  "cannedTransition": "cube",
   "customBackgrounds": {
     "bgs": []
   }
